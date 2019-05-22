@@ -18,7 +18,7 @@ function buildMetadata(sample) {
 
     // BONUS: Build the Gauge Chart
 // buildGauge(data.WFREQ);
-  // Enter a speed between 0 and 180
+  // Enter a frequency between 0 and 180
     var level = data.WFREQ;
 
     // Trig to calc meter point
@@ -49,10 +49,10 @@ function buildMetadata(sample) {
                 '1-2', '0-1', ''],
       textinfo: 'text',
       textposition:'inside',
-      marker: {colors:['#84B589','rgba(14, 127, 0, .5)', 'rgba(110, 154, 22, .5)',
+      marker: {colors:['rgba(24, 213, 76, .5)','rgba(14, 127, 0, .5)', 'rgba(110, 154, 22, .5)',
                              'rgba(170, 202, 42, .5)', 'rgba(202, 209, 95, .5)',
                              'rgba(210, 206, 145, .5)', 'rgba(232, 226, 202, .5)',
-                             '#F4F1E4','#F8F3EC', 'rgba(255, 255, 255, 0)',]},
+                             '#3CAEA3','#20639B', '#173F5F',]},
       labels: ['8-9','7-8','6-7','5-6', '4-5', '3-4', '2-3',
       '1-2', '0-1', ''],
       hoverinfo: 'label',
